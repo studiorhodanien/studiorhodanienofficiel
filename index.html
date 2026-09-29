@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Rhôdanien — Sites web sur mesure pour artisans et PME, Vienne</title>
+  <meta name="description" content="Studio Rhôdanien crée des sites web hand-coded, rapides et uniques pour les artisans, commerçants et PME de Vienne et Lyon. Zéro template, 100 % sur mesure.">
+  <meta name="theme-color" content="#4B0F1E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader-screen" id="loaderScreen" aria-hidden="true">
+    <svg class="signature-svg" viewBox="0 0 600 100" preserveAspectRatio="xMidYMid meet">
+      <text x="50%" y="55%" font-family="Great Vibes" font-size="72" fill="none" stroke="#C98C49" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" text-anchor="middle" dominant-baseline="middle" class="signature-text">Studio Rhôdanien</text>
+    </svg>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav aria-label="Navigation principale">
+      <a href="index.html" class="logo" aria-label="Studio Rhôdanien, accueil">
+        <span>Studio Rhôdanien</span>
+        <small class="logo-sub">Vienne · Lyon · partout en France</small>
+      </a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="portfolio.html">Réalisations</a></li>
+        <li><a href="process.html">Méthode</a></li>
+        <li><a href="tarifs.html">Tarifs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn nav-cta">Parler de mon projet</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-media">
+        <video id="videoHero" autoplay muted playsinline preload="metadata"></video>
+      </div>
+      <div class="hero-inner">
+        <p class="eyebrow">Zéro template · Zéro WordPress</p>
+        <h1>Un site web qui donne <em>envie</em> de vous appeler</h1>
+        <p class="lead">Des sites codés à la main, rapides et impossibles à confondre avec ceux de vos concurrents. Pensés pour les artisans, commerçants et PME qui veulent être pris au sérieux en ligne.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary">Discuter de mon projet
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="portfolio.html" class="btn btn-ghost">Voir les réalisations</a>
+        </div>
+      </div>
+      <a href="#valeur" class="scroll-indicator" aria-label="Faire défiler">Découvrir</a>
+    </section>
+
+    <!-- VALEUR -->
+    <section class="section" id="valeur">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Pourquoi nous</p>
+          <h2>Ce qu'un vrai site sur mesure change pour vous</h2>
+        </div>
+        <div class="values">
+          <article class="value">
+            <svg class="value-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 30 20 8l14 22M12 30h16"/></svg>
+            <h3>Vous ne ressemblez à personne</h3>
+            <p>Pas de thème acheté, pas de mise en page vue mille fois. Chaque ligne est écrite pour votre métier, votre ton et vos clients.</p>
+          </article>
+          <article class="value">
+            <svg class="value-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22 4 8 22h10l-2 14 14-18H20z"/></svg>
+            <h3>Ça charge en un clin d'œil</h3>
+            <p>Sans plugins ni couches inutiles, le site s'ouvre instantanément sur mobile. Google le remarque, vos visiteurs aussi.</p>
+          </article>
+          <article class="value">
+            <svg class="value-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 32V12m8 20V20m8 12V8m8 24V16"/></svg>
+            <h3>Il travaille pour vous</h3>
+            <p>Chaque page a un objectif : le devis, l'appel, la réservation. On mesure, on ajuste, on vous dit ce qui marche.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHIFFRES -->
+    <section class="stats-band">
+      <div class="container">
+        <div class="stats">
+          <div class="stat"><div class="stat-number" data-count="5" data-suffix="+">5+</div><div class="stat-label">Sites livrés</div></div>
+          <div class="stat"><div class="stat-number" data-count="100" data-suffix="%">100%</div><div class="stat-label">Clients satisfaits</div></div>
+          <div class="stat"><div class="stat-number" data-count="3">3</div><div class="stat-label">Semaines en moyenne</div></div>
+          <div class="stat"><div class="stat-number" data-count="0.4" data-suffix="s">0.4s</div><div class="stat-label">Temps de chargement</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Réalisations</p>
+          <h2>Quelques sites dont nous sommes fiers</h2>
+          <p class="lead">Des projets réels, pour des entreprises réelles. Cliquez pour voir le détail, le avant/après et ce que ça a changé.</p>
+        </div>
+        <div class="portfolio-mosaic">
+          <a href="portfolio-detail.html?id=1" class="work">
+            <div class="work-media"><div class="work-placeholder"><img class="work-logo" src="assets/img/fibromed.png" alt="Logo Fibromed"></div></div>
+            <div class="work-body">
+              <div><div class="work-title">Fibromed</div><div class="work-cat">Site vitrine · Maintenance médicale</div></div>
+              <span class="work-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </div>
+          </a>
+          <a href="portfolio-detail.html?id=2" class="work">
+            <div class="work-media"><div class="work-placeholder"><img class="work-logo" src="assets/img/rg-parebrise.png" alt="Logo RG Pare-Brise"></div></div>
+            <div class="work-body">
+              <div><div class="work-title">RG Pare-Brise</div><div class="work-cat">Site vitrine · Automobile</div></div>
+              <span class="work-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </div>
+          </a>
+          <a href="portfolio-detail.html?id=3" class="work">
+            <div class="work-media"><div class="work-placeholder"><img class="work-logo" src="assets/img/fantomm.png" alt="Logo Fantomm"></div></div>
+            <div class="work-body">
+              <div><div class="work-title">Fantomm</div><div class="work-cat">Marque · Tech &amp; confidentialité</div></div>
+              <span class="work-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio-more"><a href="portfolio.html" class="btn btn-dark">Toutes les réalisations</a></div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process-band">
+      <div class="container">
+        <div class="section-header center">
+          <p class="eyebrow">Notre méthode</p>
+          <h2>Six étapes, aucune surprise</h2>
+          <p class="lead">Vous savez toujours où on en est, ce qui vient ensuite et combien ça coûte.</p>
+        </div>
+        <div class="timeline">
+          <article class="step"><div class="step-num">1</div><h3>On vous écoute</h3><p>Un échange d'une heure sur votre métier, vos clients et ce que le site doit obtenir pour vous.</p></article>
+          <article class="step"><div class="step-num">2</div><h3>On dessine</h3><p>Une maquette unique à votre marque. On ajuste jusqu'à ce que vous vous y reconnaissiez.</p></article>
+          <article class="step"><div class="step-num">3</div><h3>On code</h3><p>HTML, CSS et JavaScript écrits à la main. Léger, propre, optimisé pour Google et le mobile.</p></article>
+          <article class="step"><div class="step-num">4</div><h3>On met en ligne</h3><p>Déploiement sur votre hébergement, tests sur tous les écrans, formulaire branché et testé.</p></article>
+          <article class="step"><div class="step-num">5</div><h3>On reste là</h3><p>Trois mois de support inclus. Une modification, une question : on répond vite.</p></article>
+          <article class="step"><div class="step-num">6</div><h3>On fait grandir</h3><p>Avec les données réelles, on améliore ce qui convertit et on retire ce qui ne sert à rien.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TÉMOIGNAGES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Ils nous font confiance</p>
+          <h2>Ce que disent nos clients</h2>
+        </div>
+        <div class="testimonials">
+          <!-- À remplir avec de vrais témoignages -->
+          <blockquote class="quote">
+            <p>Le site a doublé nos demandes de devis en trois mois. On nous dit souvent qu'on a l'air plus sérieux que les grosses boîtes du coin.</p>
+            <cite>Gérant, entreprise artisanale — Vienne</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>On voulait quelque chose d'unique, pas un énième WordPress. C'est exactement ce qu'on a eu, et il charge en une seconde.</p>
+            <cite>Fondatrice, commerce de proximité — Lyon</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final">
+      <div class="container">
+        <p class="eyebrow">Et maintenant</p>
+        <h2>Parlons de votre site</h2>
+        <p class="lead">Un premier échange gratuit, sans engagement. Vous repartez avec une idée claire de ce qui est possible et de ce que ça coûte.</p>
+        <a href="contact.html" class="btn btn-primary">Prendre rendez-vous
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span>Studio Rhôdanien</span></a>
+          <p>Sites web codés à la main pour les artisans, commerçants et PME qui veulent un site à leur image.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <ul>
+            <li><a href="portfolio.html">Réalisations</a></li>
+            <li><a href="process.html">Méthode</a></li>
+            <li><a href="tarifs.html">Tarifs</a></li>
+            <li><a href="charte-graphique.html">Charte graphique</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <!-- À remplir -->
+            <li><a href="mailto:contact@studiorhodanien.fr">contact@studiorhodanien.fr</a></li>
+            <li><a href="tel:+33000000000">+33 0 00 00 00 00</a></li>
+            <li>Vienne (38200), France</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Suivre</h4>
+          <ul>
+            <!-- À remplir -->
+            <li><a href="#" rel="noopener">Instagram</a></li>
+            <li><a href="#" rel="noopener">LinkedIn</a></li>
+            <li><a href="#" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Studio Rhôdanien. Tous droits réservés.</span>
+        <span><a href="mentions-legales.html">Mentions légales</a> · <a href="cgu.html">CGU</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
